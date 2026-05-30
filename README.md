@@ -33,10 +33,10 @@ DishGuide — це система рекомендацій страв у рес�
 
 | Functional Requirement | Use Case | Classes | Sequence Diagram |
 | :---: | :--- | :--- | :--- |
-| FR-01 | Користувач може шукати ресторан | User, Restaurant | ✔ |
-| FR-02 | Користувач може шукати ресторани за місцем розташування | User, Restaurant | — |
-| FR-03 | Користувач може переглядати найкращі страви в ресторані | User, RecommendationService | ✔ |
-| FR-04 | Користувач може бачити рейтинг ресторану | User, Review, Restaurant | — |
-| FR-05 | Користувач може бачити популярні ресторани | User, Restaurant | — |
-| FR-06 | Система надає рекомендації страв на основі відгуків |RecommendationService, Review | ✔ |
-| FR-07 | Користувач може фільтрувати ресторани за кухнею | User, Filter | — |
+| FR-01 | Пошук ресторану | User, Restaurant | ✔ |
+| FR-02 | Пошук ресторану за місцем розташування | User, Restaurant | — |
+| FR-03 | Перегляд найкращих страв | User, RecommendationService | ✔ |
+| FR-04 | Перегляд рейтингу ресторану | User, Review, Restaurant | — |
+| FR-05 | Перегляд популярних ресторанів | User, Restaurant | — |
+| FR-06 | Аналіз відгуків |RecommendationService, Review | ✔ |
+| FR-07 | Фільтрація за кухнею | User, Filter | — |
