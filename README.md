@@ -21,4 +21,7 @@ DishGuide — це система рекомендацій страв у рес�
 
 <img width="445" height="578" alt="OPI_2_1" src="https://github.com/user-attachments/assets/61dbb670-22a0-4bd0-ba84-24bd84b79d1d" />
 
+## Class Diagram
+
+<img width="574" height="587" alt="OPI_2_2" src="https://github.com/user-attachments/assets/ae83e00f-d42c-4bdf-9a5a-e367d9a34616" />
 
