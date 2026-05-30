@@ -27,7 +27,7 @@ DishGuide — це система рекомендацій страв у рес�
 
 ## Sequence Diagram
 
-<img width="630" height="294" alt="OPI_2_3" src="https://github.com/user-attachments/assets/3a7023c6-0d71-4f68-bc26-f3c45617d46f" />
+<img width="632" height="323" alt="OPI_2_3" src="https://github.com/user-attachments/assets/ff580e2e-702f-4b32-a966-0e1b27a0dbbe" />
 
 ## Traceability Matrix
 
