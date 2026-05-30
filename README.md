@@ -19,5 +19,6 @@ DishGuide — це система рекомендацій страв у рес�
 
 ## Use Case Diagram
 
-<img width="445" height="580" alt="ZPBDIiD04CVlWRp3a8kd2lR3WfHIgU03Y0yGahKDf2aa6r14g8QAWhGUf5SlFa3f1sqJssUOUIDtDwcqWOgdtV_C_lupixkDW9i-3pkkhhdiXWFlWk-qsXninsSMTxgUhfaMx_fWN0VCDy0CG6v-e-Tsn_5KMErqJTSaQ7ejbu5nuGJjoz2n6LpT" src="https://github.com/user-attachments/assets/6edc5691-e716-4f50-971e-5c6633af6d74" />
+<img width="445" height="578" alt="OPI_2_1" src="https://github.com/user-attachments/assets/61dbb670-22a0-4bd0-ba84-24bd84b79d1d" />
+
 
