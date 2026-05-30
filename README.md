@@ -16,3 +16,32 @@ DishGuide — це система рекомендацій страв у рес�
 | FR-05 | Користувач може бачити популярні ресторани |
 | FR-06 | Система надає рекомендfws] страв на основі відгуків |
 | FR-07 | Користувач може фільтрувати ресторани за кухнею |
+
+## Use Case Diagram
+
+@startuml
+left to right direction
+actor "Клієнт" as Client
+actor "Кур'єр" as Courier
+
+package "Система замовлення їжі" {
+  usecase "Перегляд меню" as UC1
+  usecase "Додавання до кошика" as UC2
+  usecase "Оформлення замовлення" as UC3
+  usecase "Оплата карткою" as UC4
+  usecase "Авторизація" as UC5
+  usecase "Зміна статусу на 'Доставлено'" as UC6
+
+  Client --> UC1
+  Client --> UC2
+  Client --> UC3
+  
+  ' Щоб оформити замовлення, обов'язково треба авторизуватись (include)
+  UC3 .> UC5 : <<include>>
+  
+  ' Оплата карткою - це необов'язкове розширення (можна платити готівкою), тому extend
+  UC4 .> UC3 : <<extend>>
+
+  Courier --> UC6
+}
+@enduml
