@@ -25,3 +25,18 @@ DishGuide — це система рекомендацій страв у рес�
 
 <img width="574" height="587" alt="OPI_2_2" src="https://github.com/user-attachments/assets/ae83e00f-d42c-4bdf-9a5a-e367d9a34616" />
 
+## Sequence Diagram
+
+<img width="630" height="294" alt="OPI_2_3" src="https://github.com/user-attachments/assets/3a7023c6-0d71-4f68-bc26-f3c45617d46f" />
+
+## Traceability Matrix
+
+| Functional Requirement | Use Case | Classes | Sequence Diagram |
+| :---: | :--- | :--- | :--- |
+| FR-01 | Користувач може шукати ресторан | User, Restaurant |
+| FR-02 | Користувач може шукати ресторани за місцем розташування | User, Restaurant |
+| FR-03 | Користувач може переглядати найкращі страви в ресторані | User, RecommendationService |
+| FR-04 | Користувач може бачити рейтинг ресторану | User, Review, Restaurant |
+| FR-05 | Користувач може бачити популярні ресторани | User, Restaurant |
+| FR-06 | Система надає рекомендації страв на основі відгуків |RecommendationService, Review |
+| FR-07 | Користувач може фільтрувати ресторани за кухнею | User, Filter |
